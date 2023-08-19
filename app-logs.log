@@ -1,0 +1,400 @@
+2023-08-19T12:40:02.678Z [ERROR]: notNull Violation: Note.text cannot be null
+2023-08-19T12:44:14.436Z [ERROR]: Note not found
+2023-08-19T12:57:55.858Z [INFO]: Checking Cache
+2023-08-19T13:00:36.885Z [INFO]: Checking Cache
+2023-08-19T13:02:16.306Z [INFO]: Checking Cache
+2023-08-19T13:03:37.308Z [INFO]: Checking Cache
+2023-08-19T13:05:36.758Z [INFO]: Checking Cache
+2023-08-19T13:07:51.611Z [INFO]: Checking Cache
+2023-08-19T13:08:55.908Z [INFO]: Checking Cache
+2023-08-19T13:14:52.547Z [INFO]: Checking Cache
+2023-08-19T13:15:20.875Z [INFO]: Checking Cache
+2023-08-19T13:15:49.675Z [INFO]: Checking Cache
+2023-08-19T13:19:16.257Z [INFO]: Checking Cache
+2023-08-19T13:26:39.915Z [INFO]: Checking Cache
+2023-08-19T13:27:29.638Z [INFO]: Checking Cache
+2023-08-19T13:29:08.677Z [INFO]: Checking Cache
+2023-08-19T13:39:05.114Z [INFO]: Checking Cache
+2023-08-19T13:40:09.792Z [INFO]: Checking Cache
+2023-08-19T13:41:24.571Z [INFO]: Checking Cache
+2023-08-19T13:43:51.818Z [INFO]: Checking Cache
+2023-08-19T13:44:34.073Z [INFO]: Checking Cache
+2023-08-19T14:09:22.231Z [INFO]: Checking Cache
+2023-08-19T14:10:04.392Z [INFO]: Checking Cache
+2023-08-19T14:11:29.595Z [INFO]: Checking Cache
+2023-08-19T14:49:45.494Z [INFO]: Checking Cache
+2023-08-19T14:50:36.504Z [INFO]: Checking Cache
+2023-08-19T14:51:33.017Z [INFO]: Checking Cache
+2023-08-19T14:56:18.327Z [INFO]: Checking Cache
+2023-08-19T19:26:32.346Z [INFO]: Checking Cache
+2023-08-19T19:27:53.646Z [ERROR]: notNull Violation: Note.type cannot be null
+2023-08-19T19:28:33.025Z [ERROR]: notNull Violation: Note.type cannot be null
+2023-08-19T19:30:15.701Z [ERROR]: notNull Violation: Note.type cannot be null
+2023-08-19T19:30:39.488Z [ERROR]: notNull Violation: Note.type cannot be null
+2023-08-19T19:30:40.081Z [ERROR]: notNull Violation: Note.type cannot be null
+2023-08-19T19:31:18.818Z [ERROR]: notNull Violation: Note.type cannot be null,
+notNull Violation: Note.text cannot be null
+2023-08-19T19:31:55.989Z [ERROR]: Unknown column 'type' in 'field list'
+2023-08-19T19:54:08.236Z [INFO]: Checking Cache
+2023-08-19T20:05:11.999Z [INFO]: Checking Cache
+2023-08-19T20:05:52.379Z [INFO]: Checking Cache
+2023-08-19T20:07:29.725Z [INFO]: Checking Cache
+2023-08-19T20:08:30.170Z [ERROR]: client.setex is not a function
+2023-08-19T20:09:45.222Z [ERROR]: client.setex is not a function
+2023-08-19T20:11:55.937Z [ERROR]: client.setex is not a function
+2023-08-19T20:11:56.773Z [ERROR]: client.setex is not a function
+2023-08-19T20:11:57.259Z [ERROR]: client.setex is not a function
+2023-08-19T20:11:57.614Z [ERROR]: client.setex is not a function
+2023-08-19T20:11:57.933Z [ERROR]: client.setex is not a function
+2023-08-19T20:11:58.240Z [ERROR]: client.setex is not a function
+2023-08-19T20:11:58.577Z [ERROR]: client.setex is not a function
+2023-08-19T20:11:58.967Z [ERROR]: client.setex is not a function
+2023-08-19T20:11:59.388Z [ERROR]: client.setex is not a function
+2023-08-19T20:11:59.747Z [ERROR]: client.setex is not a function
+2023-08-19T21:10:13.321Z [INFO]: Checking Cache
+2023-08-19T21:12:03.336Z [INFO]: Checking Cache
+2023-08-19T21:12:03.337Z [INFO]: /api/notes/
+2023-08-19T21:13:44.977Z [INFO]: Checking Cache
+2023-08-19T21:13:44.979Z [INFO]: /api/notes/
+2023-08-19T21:14:43.207Z [INFO]: Checking Cache
+2023-08-19T21:14:43.209Z [INFO]: /api/notes/
+2023-08-19T21:16:13.456Z [INFO]: Checking Cache
+2023-08-19T21:16:13.458Z [INFO]: /api/notes/
+2023-08-19T21:16:20.524Z [INFO]: Checking Cache
+2023-08-19T21:16:20.530Z [INFO]: /api/notes/
+2023-08-19T21:17:10.518Z [INFO]: Checking Cache
+2023-08-19T21:17:10.520Z [INFO]: /api/notes/
+2023-08-19T21:18:53.220Z [INFO]: Checking Cache
+2023-08-19T21:18:53.222Z [INFO]: /api/notes/
+2023-08-19T21:19:59.225Z [INFO]: Checking Cache
+2023-08-19T21:20:03.378Z [INFO]: Checking Cache
+2023-08-19T21:20:03.870Z [INFO]: Checking Cache
+2023-08-19T21:20:04.297Z [INFO]: Checking Cache
+2023-08-19T21:20:04.632Z [INFO]: Checking Cache
+2023-08-19T21:24:05.756Z [INFO]: Checking Cache
+2023-08-19T21:24:06.510Z [INFO]: Checking Cache
+2023-08-19T21:24:07.157Z [INFO]: Checking Cache
+2023-08-19T21:24:07.539Z [INFO]: Checking Cache
+2023-08-19T21:24:07.945Z [INFO]: Checking Cache
+2023-08-19T21:24:09.284Z [INFO]: Checking Cache
+2023-08-19T21:24:09.617Z [INFO]: Checking Cache
+2023-08-19T21:24:09.972Z [INFO]: Checking Cache
+2023-08-19T21:24:11.179Z [INFO]: Checking Cache
+2023-08-19T21:24:11.503Z [INFO]: Checking Cache
+2023-08-19T21:24:11.880Z [INFO]: Checking Cache
+2023-08-19T21:24:12.234Z [INFO]: Checking Cache
+2023-08-19T21:24:14.521Z [INFO]: Checking Cache
+2023-08-19T21:24:15.125Z [INFO]: Checking Cache
+2023-08-19T21:24:15.535Z [INFO]: Checking Cache
+2023-08-19T21:24:15.934Z [INFO]: Checking Cache
+2023-08-19T21:24:17.946Z [INFO]: Checking Cache
+2023-08-19T21:24:18.302Z [INFO]: Checking Cache
+2023-08-19T21:24:20.871Z [INFO]: Checking Cache
+2023-08-19T21:24:21.448Z [INFO]: Checking Cache
+2023-08-19T21:24:21.862Z [INFO]: Checking Cache
+2023-08-19T21:24:22.274Z [INFO]: Checking Cache
+2023-08-19T21:24:22.670Z [INFO]: Checking Cache
+2023-08-19T21:24:22.958Z [INFO]: Checking Cache
+2023-08-19T21:24:23.311Z [INFO]: Checking Cache
+2023-08-19T21:24:23.668Z [INFO]: Checking Cache
+2023-08-19T21:24:24.011Z [INFO]: Checking Cache
+2023-08-19T21:24:24.909Z [INFO]: Checking Cache
+2023-08-19T21:24:25.250Z [INFO]: Checking Cache
+2023-08-19T21:24:25.644Z [INFO]: Checking Cache
+2023-08-19T21:24:26.001Z [INFO]: Checking Cache
+2023-08-19T21:24:26.368Z [INFO]: Checking Cache
+2023-08-19T21:24:26.744Z [INFO]: Checking Cache
+2023-08-19T21:24:27.075Z [INFO]: Checking Cache
+2023-08-19T21:24:27.389Z [INFO]: Checking Cache
+2023-08-19T21:24:27.712Z [INFO]: Checking Cache
+2023-08-19T21:24:28.056Z [INFO]: Checking Cache
+2023-08-19T21:24:28.405Z [INFO]: Checking Cache
+2023-08-19T21:24:28.682Z [INFO]: Checking Cache
+2023-08-19T21:24:29.021Z [INFO]: Checking Cache
+2023-08-19T21:24:29.369Z [INFO]: Checking Cache
+2023-08-19T21:24:30.041Z [INFO]: Checking Cache
+2023-08-19T21:24:30.447Z [INFO]: Checking Cache
+2023-08-19T21:24:30.947Z [INFO]: Checking Cache
+2023-08-19T21:24:31.300Z [INFO]: Checking Cache
+2023-08-19T21:24:31.627Z [INFO]: Checking Cache
+2023-08-19T21:24:35.507Z [INFO]: Checking Cache
+2023-08-19T21:24:36.088Z [INFO]: Checking Cache
+2023-08-19T21:24:36.367Z [INFO]: Checking Cache
+2023-08-19T21:25:13.568Z [INFO]: Checking Cache
+2023-08-19T21:25:13.972Z [INFO]: Checking Cache
+2023-08-19T21:25:14.350Z [INFO]: Checking Cache
+2023-08-19T21:25:29.607Z [INFO]: Checking Cache
+2023-08-19T21:25:29.984Z [INFO]: Checking Cache
+2023-08-19T21:28:22.606Z [INFO]: Checking Cache
+2023-08-19T21:28:23.221Z [INFO]: Checking Cache
+2023-08-19T21:28:23.513Z [INFO]: Checking Cache
+2023-08-19T21:28:23.867Z [INFO]: Checking Cache
+2023-08-19T21:28:24.159Z [INFO]: Checking Cache
+2023-08-19T21:28:24.489Z [INFO]: Checking Cache
+2023-08-19T21:28:24.811Z [INFO]: Checking Cache
+2023-08-19T21:28:25.110Z [INFO]: Checking Cache
+2023-08-19T21:28:25.440Z [INFO]: Checking Cache
+2023-08-19T21:28:26.429Z [INFO]: Checking Cache
+2023-08-19T21:28:26.805Z [INFO]: Checking Cache
+2023-08-19T21:31:12.168Z [INFO]: Checking Cache
+2023-08-19T21:31:12.183Z [ERROR]: value is not defined
+2023-08-19T21:31:15.508Z [INFO]: Checking Cache
+2023-08-19T21:31:15.511Z [ERROR]: value is not defined
+2023-08-19T21:31:16.124Z [INFO]: Checking Cache
+2023-08-19T21:31:16.126Z [ERROR]: value is not defined
+2023-08-19T21:31:16.499Z [INFO]: Checking Cache
+2023-08-19T21:31:16.505Z [ERROR]: value is not defined
+2023-08-19T21:31:16.858Z [INFO]: Checking Cache
+2023-08-19T21:31:16.862Z [ERROR]: value is not defined
+2023-08-19T21:31:17.850Z [INFO]: Checking Cache
+2023-08-19T21:31:17.853Z [ERROR]: value is not defined
+2023-08-19T21:31:18.278Z [INFO]: Checking Cache
+2023-08-19T21:31:18.280Z [ERROR]: value is not defined
+2023-08-19T21:31:18.632Z [INFO]: Checking Cache
+2023-08-19T21:31:18.638Z [ERROR]: value is not defined
+2023-08-19T21:31:19.001Z [INFO]: Checking Cache
+2023-08-19T21:31:19.004Z [ERROR]: value is not defined
+2023-08-19T21:31:20.247Z [INFO]: Checking Cache
+2023-08-19T21:31:20.252Z [ERROR]: value is not defined
+2023-08-19T21:31:20.652Z [INFO]: Checking Cache
+2023-08-19T21:31:20.657Z [ERROR]: value is not defined
+2023-08-19T21:31:21.073Z [INFO]: Checking Cache
+2023-08-19T21:31:21.079Z [ERROR]: value is not defined
+2023-08-19T21:32:56.945Z [INFO]: Checking Cache
+2023-08-19T21:32:56.953Z [ERROR]: value is not defined
+2023-08-19T21:32:57.670Z [INFO]: Checking Cache
+2023-08-19T21:32:57.675Z [ERROR]: value is not defined
+2023-08-19T21:32:58.010Z [INFO]: Checking Cache
+2023-08-19T21:32:58.014Z [ERROR]: value is not defined
+2023-08-19T21:32:58.360Z [INFO]: Checking Cache
+2023-08-19T21:32:58.364Z [ERROR]: value is not defined
+2023-08-19T21:32:59.627Z [INFO]: Checking Cache
+2023-08-19T21:32:59.633Z [ERROR]: value is not defined
+2023-08-19T21:32:59.956Z [INFO]: Checking Cache
+2023-08-19T21:32:59.964Z [ERROR]: value is not defined
+2023-08-19T21:33:00.282Z [INFO]: Checking Cache
+2023-08-19T21:33:00.286Z [ERROR]: value is not defined
+2023-08-19T21:34:38.596Z [INFO]: Checking Cache
+2023-08-19T21:34:38.604Z [ERROR]: value is not defined
+2023-08-19T21:35:21.802Z [INFO]: Checking Cache
+2023-08-19T21:35:21.807Z [ERROR]: value is not defined
+2023-08-19T21:35:56.143Z [INFO]: Checking Cache
+2023-08-19T21:35:56.149Z [ERROR]: value is not defined
+2023-08-19T21:35:56.559Z [INFO]: Checking Cache
+2023-08-19T21:35:56.565Z [ERROR]: value is not defined
+2023-08-19T21:37:11.117Z [INFO]: Checking Cache
+2023-08-19T21:37:11.123Z [ERROR]: callback is not defined
+2023-08-19T21:37:12.215Z [INFO]: Checking Cache
+2023-08-19T21:37:12.218Z [ERROR]: callback is not defined
+2023-08-19T21:37:59.136Z [INFO]: Checking Cache
+2023-08-19T21:38:00.628Z [INFO]: Checking Cache
+2023-08-19T21:38:01.263Z [INFO]: Checking Cache
+2023-08-19T21:38:01.752Z [INFO]: Checking Cache
+2023-08-19T21:38:02.151Z [INFO]: Checking Cache
+2023-08-19T21:38:02.549Z [INFO]: Checking Cache
+2023-08-19T21:38:02.886Z [INFO]: Checking Cache
+2023-08-19T21:38:03.326Z [INFO]: Checking Cache
+2023-08-19T21:38:03.748Z [INFO]: Checking Cache
+2023-08-19T21:38:04.155Z [INFO]: Checking Cache
+2023-08-19T21:38:04.578Z [INFO]: Checking Cache
+2023-08-19T21:38:04.961Z [INFO]: Checking Cache
+2023-08-19T21:38:05.353Z [INFO]: Checking Cache
+2023-08-19T21:38:05.697Z [INFO]: Checking Cache
+2023-08-19T21:38:06.071Z [INFO]: Checking Cache
+2023-08-19T21:38:06.414Z [INFO]: Checking Cache
+2023-08-19T21:38:06.801Z [INFO]: Checking Cache
+2023-08-19T21:38:07.122Z [INFO]: Checking Cache
+2023-08-19T21:38:07.482Z [INFO]: Checking Cache
+2023-08-19T21:38:07.856Z [INFO]: Checking Cache
+2023-08-19T21:38:08.249Z [INFO]: Checking Cache
+2023-08-19T21:38:08.539Z [INFO]: Checking Cache
+2023-08-19T21:38:08.847Z [INFO]: Checking Cache
+2023-08-19T21:38:09.297Z [INFO]: Checking Cache
+2023-08-19T21:38:09.624Z [INFO]: Checking Cache
+2023-08-19T21:38:10.008Z [INFO]: Checking Cache
+2023-08-19T21:38:10.340Z [INFO]: Checking Cache
+2023-08-19T21:38:10.813Z [INFO]: Checking Cache
+2023-08-19T21:38:11.152Z [INFO]: Checking Cache
+2023-08-19T21:38:11.554Z [INFO]: Checking Cache
+2023-08-19T21:38:11.931Z [INFO]: Checking Cache
+2023-08-19T21:38:12.289Z [INFO]: Checking Cache
+2023-08-19T21:38:12.729Z [INFO]: Checking Cache
+2023-08-19T21:38:13.055Z [INFO]: Checking Cache
+2023-08-19T21:38:13.540Z [INFO]: Checking Cache
+2023-08-19T21:38:13.940Z [INFO]: Checking Cache
+2023-08-19T21:38:14.381Z [INFO]: Checking Cache
+2023-08-19T21:38:14.779Z [INFO]: Checking Cache
+2023-08-19T21:38:15.162Z [INFO]: Checking Cache
+2023-08-19T21:38:15.589Z [INFO]: Checking Cache
+2023-08-19T21:38:15.934Z [INFO]: Checking Cache
+2023-08-19T21:38:16.582Z [INFO]: Checking Cache
+2023-08-19T21:38:17.146Z [INFO]: Checking Cache
+2023-08-19T21:38:17.527Z [INFO]: Checking Cache
+2023-08-19T21:38:17.889Z [INFO]: Checking Cache
+2023-08-19T21:38:18.332Z [INFO]: Checking Cache
+2023-08-19T21:38:18.726Z [INFO]: Checking Cache
+2023-08-19T21:38:19.092Z [INFO]: Checking Cache
+2023-08-19T21:38:19.517Z [INFO]: Checking Cache
+2023-08-19T21:38:19.950Z [INFO]: Checking Cache
+2023-08-19T21:38:20.341Z [INFO]: Checking Cache
+2023-08-19T21:38:20.758Z [INFO]: Checking Cache
+2023-08-19T21:38:21.158Z [INFO]: Checking Cache
+2023-08-19T21:38:21.608Z [INFO]: Checking Cache
+2023-08-19T21:38:21.958Z [INFO]: Checking Cache
+2023-08-19T21:38:22.324Z [INFO]: Checking Cache
+2023-08-19T21:38:22.711Z [INFO]: Checking Cache
+2023-08-19T21:38:23.018Z [INFO]: Checking Cache
+2023-08-19T21:38:24.320Z [INFO]: Checking Cache
+2023-08-19T21:38:24.753Z [INFO]: Checking Cache
+2023-08-19T21:38:25.142Z [INFO]: Checking Cache
+2023-08-19T21:38:25.551Z [INFO]: Checking Cache
+2023-08-19T21:38:26.734Z [INFO]: Checking Cache
+2023-08-19T21:38:27.088Z [INFO]: Checking Cache
+2023-08-19T21:38:27.447Z [INFO]: Checking Cache
+2023-08-19T21:38:27.759Z [INFO]: Checking Cache
+2023-08-19T21:38:28.745Z [INFO]: Checking Cache
+2023-08-19T21:38:29.248Z [INFO]: Checking Cache
+2023-08-19T21:38:29.566Z [INFO]: Checking Cache
+2023-08-19T21:38:29.974Z [INFO]: Checking Cache
+2023-08-19T21:38:30.295Z [INFO]: Checking Cache
+2023-08-19T21:38:30.656Z [INFO]: Checking Cache
+2023-08-19T21:38:31.026Z [INFO]: Checking Cache
+2023-08-19T21:38:31.377Z [INFO]: Checking Cache
+2023-08-19T21:38:31.769Z [INFO]: Checking Cache
+2023-08-19T21:38:32.064Z [INFO]: Checking Cache
+2023-08-19T21:38:32.412Z [INFO]: Checking Cache
+2023-08-19T21:38:32.731Z [INFO]: Checking Cache
+2023-08-19T21:38:33.107Z [INFO]: Checking Cache
+2023-08-19T21:38:44.445Z [INFO]: Checking Cache
+2023-08-19T21:38:45.017Z [INFO]: Checking Cache
+2023-08-19T21:38:45.368Z [INFO]: Checking Cache
+2023-08-19T21:38:45.747Z [INFO]: Checking Cache
+2023-08-19T21:38:46.121Z [INFO]: Checking Cache
+2023-08-19T21:38:46.463Z [INFO]: Checking Cache
+2023-08-19T21:38:46.823Z [INFO]: Checking Cache
+2023-08-19T21:38:47.262Z [INFO]: Checking Cache
+2023-08-19T21:38:47.634Z [INFO]: Checking Cache
+2023-08-19T21:38:48.314Z [INFO]: Checking Cache
+2023-08-19T21:38:48.971Z [INFO]: Checking Cache
+2023-08-19T21:38:49.296Z [INFO]: Checking Cache
+2023-08-19T21:38:49.639Z [INFO]: Checking Cache
+2023-08-19T21:38:50.317Z [INFO]: Checking Cache
+2023-08-19T21:38:50.737Z [INFO]: Checking Cache
+2023-08-19T21:38:51.154Z [INFO]: Checking Cache
+2023-08-19T21:38:51.469Z [INFO]: Checking Cache
+2023-08-19T21:38:51.845Z [INFO]: Checking Cache
+2023-08-19T21:38:52.194Z [INFO]: Checking Cache
+2023-08-19T21:38:52.464Z [INFO]: Checking Cache
+2023-08-19T21:38:53.508Z [INFO]: Checking Cache
+2023-08-19T21:38:53.909Z [INFO]: Checking Cache
+2023-08-19T21:38:54.261Z [INFO]: Checking Cache
+2023-08-19T21:38:54.606Z [INFO]: Checking Cache
+2023-08-19T21:38:54.963Z [INFO]: Checking Cache
+2023-08-19T21:38:55.307Z [INFO]: Checking Cache
+2023-08-19T21:38:55.629Z [INFO]: Checking Cache
+2023-08-19T21:38:56.260Z [INFO]: Checking Cache
+2023-08-19T21:38:56.708Z [INFO]: Checking Cache
+2023-08-19T21:38:57.110Z [INFO]: Checking Cache
+2023-08-19T21:38:57.538Z [INFO]: Checking Cache
+2023-08-19T21:38:57.848Z [INFO]: Checking Cache
+2023-08-19T21:39:26.056Z [INFO]: Checking Cache
+2023-08-19T21:39:26.979Z [INFO]: Checking Cache
+2023-08-19T21:39:27.366Z [INFO]: Checking Cache
+2023-08-19T21:39:27.707Z [INFO]: Checking Cache
+2023-08-19T21:39:44.445Z [INFO]: Checking Cache
+2023-08-19T21:39:45.646Z [INFO]: Checking Cache
+2023-08-19T21:39:46.199Z [INFO]: Checking Cache
+2023-08-19T21:40:52.582Z [INFO]: Checking Cache
+2023-08-19T21:40:53.080Z [INFO]: Checking Cache
+2023-08-19T21:40:53.461Z [INFO]: Checking Cache
+2023-08-19T21:40:53.798Z [INFO]: Checking Cache
+2023-08-19T21:40:54.158Z [INFO]: Checking Cache
+2023-08-19T21:40:54.494Z [INFO]: Checking Cache
+2023-08-19T21:40:54.823Z [INFO]: Checking Cache
+2023-08-19T21:40:55.140Z [INFO]: Checking Cache
+2023-08-19T21:40:55.449Z [INFO]: Checking Cache
+2023-08-19T21:40:55.771Z [INFO]: Checking Cache
+2023-08-19T21:40:56.724Z [INFO]: Checking Cache
+2023-08-19T21:40:57.109Z [INFO]: Checking Cache
+2023-08-19T21:40:57.555Z [INFO]: Checking Cache
+2023-08-19T21:40:57.902Z [INFO]: Checking Cache
+2023-08-19T21:41:53.596Z [INFO]: Checking Cache
+2023-08-19T21:42:35.103Z [INFO]: Checking Cache
+2023-08-19T21:42:35.106Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:43:21.893Z [INFO]: Checking Cache
+2023-08-19T21:43:21.894Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:43:22.509Z [INFO]: Checking Cache
+2023-08-19T21:43:22.510Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:44:26.670Z [INFO]: Checking Cache
+2023-08-19T21:44:26.673Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:19.269Z [INFO]: Checking Cache
+2023-08-19T21:46:19.282Z [INFO]: null
+2023-08-19T21:46:20.732Z [INFO]: Checking Cache
+2023-08-19T21:46:20.737Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:21.694Z [INFO]: Checking Cache
+2023-08-19T21:46:21.695Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:22.317Z [INFO]: Checking Cache
+2023-08-19T21:46:22.318Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:22.781Z [INFO]: Checking Cache
+2023-08-19T21:46:22.799Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:23.216Z [INFO]: Checking Cache
+2023-08-19T21:46:23.218Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:23.688Z [INFO]: Checking Cache
+2023-08-19T21:46:23.689Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:24.122Z [INFO]: Checking Cache
+2023-08-19T21:46:24.123Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:24.586Z [INFO]: Checking Cache
+2023-08-19T21:46:24.587Z [INFO]: null
+2023-08-19T21:46:24.976Z [INFO]: Checking Cache
+2023-08-19T21:46:24.976Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:25.650Z [INFO]: Checking Cache
+2023-08-19T21:46:25.651Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:26.029Z [INFO]: Checking Cache
+2023-08-19T21:46:26.030Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:26.468Z [INFO]: Checking Cache
+2023-08-19T21:46:26.468Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:26.782Z [INFO]: Checking Cache
+2023-08-19T21:46:26.783Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:27.151Z [INFO]: Checking Cache
+2023-08-19T21:46:27.152Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:27.554Z [INFO]: Checking Cache
+2023-08-19T21:46:27.555Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:27.944Z [INFO]: Checking Cache
+2023-08-19T21:46:27.945Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:28.363Z [INFO]: Checking Cache
+2023-08-19T21:46:28.363Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:28.781Z [INFO]: Checking Cache
+2023-08-19T21:46:28.787Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:29.188Z [INFO]: Checking Cache
+2023-08-19T21:46:29.196Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:29.587Z [INFO]: Checking Cache
+2023-08-19T21:46:29.595Z [INFO]: null
+2023-08-19T21:46:29.989Z [INFO]: Checking Cache
+2023-08-19T21:46:29.990Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:30.319Z [INFO]: Checking Cache
+2023-08-19T21:46:30.320Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T21:46:30.633Z [INFO]: Checking Cache
+2023-08-19T21:46:30.633Z [INFO]: [{"id":"b49ad153-874c-4f2e-8a5e-1cd3eeeccd49","type":"Personal","text":"rr3242342342423423","userId":"b1f90814-9674-4cee-9221-991fdc2c90c0","createdAt":"2023-08-19T20:11:52.000Z","updatedAt":"2023-08-19T20:11:52.000Z"}]
+2023-08-19T22:11:36.846Z [INFO]: Checking Cache
+2023-08-19T22:11:36.850Z [INFO]: null
+2023-08-19T22:13:29.758Z [INFO]: Checking Cache
+2023-08-19T22:13:29.762Z [INFO]: null
+2023-08-19T22:15:02.547Z [INFO]: Checking Cache
+2023-08-19T22:15:02.549Z [INFO]: null
+2023-08-19T22:15:18.030Z [ERROR]: notNull Violation: Note.type cannot be null
+2023-08-19T22:19:13.513Z [INFO]: Checking Cache
+2023-08-19T22:19:13.516Z [INFO]: null
+2023-08-19T22:19:21.157Z [INFO]: Checking Cache
+2023-08-19T22:19:21.158Z [INFO]: null
+2023-08-19T22:19:21.668Z [INFO]: Checking Cache
+2023-08-19T22:19:21.669Z [INFO]: [{"id":"c1f78125-84c2-441f-b2e1-48a9e5053391","type":"exampe type","text":"example text","userId":"cba4f43d-c76d-4fff-8dc3-565d8221a51a","createdAt":"2023-08-19T22:18:41.000Z","updatedAt":"2023-08-19T22:18:41.000Z"}]
+2023-08-19T22:19:22.008Z [INFO]: Checking Cache
+2023-08-19T22:19:22.009Z [INFO]: [{"id":"c1f78125-84c2-441f-b2e1-48a9e5053391","type":"exampe type","text":"example text","userId":"cba4f43d-c76d-4fff-8dc3-565d8221a51a","createdAt":"2023-08-19T22:18:41.000Z","updatedAt":"2023-08-19T22:18:41.000Z"}]
+2023-08-19T22:19:22.517Z [INFO]: Checking Cache
+2023-08-19T22:19:22.518Z [INFO]: [{"id":"c1f78125-84c2-441f-b2e1-48a9e5053391","type":"exampe type","text":"example text","userId":"cba4f43d-c76d-4fff-8dc3-565d8221a51a","createdAt":"2023-08-19T22:18:41.000Z","updatedAt":"2023-08-19T22:18:41.000Z"}]
+2023-08-19T22:19:22.795Z [INFO]: Checking Cache
+2023-08-19T22:19:22.801Z [INFO]: [{"id":"c1f78125-84c2-441f-b2e1-48a9e5053391","type":"exampe type","text":"example text","userId":"cba4f43d-c76d-4fff-8dc3-565d8221a51a","createdAt":"2023-08-19T22:18:41.000Z","updatedAt":"2023-08-19T22:18:41.000Z"}]
+2023-08-19T22:19:23.139Z [INFO]: Checking Cache
+2023-08-19T22:19:23.142Z [INFO]: [{"id":"c1f78125-84c2-441f-b2e1-48a9e5053391","type":"exampe type","text":"example text","userId":"cba4f43d-c76d-4fff-8dc3-565d8221a51a","createdAt":"2023-08-19T22:18:41.000Z","updatedAt":"2023-08-19T22:18:41.000Z"}]
+2023-08-19T22:19:23.422Z [INFO]: Checking Cache
+2023-08-19T22:19:23.426Z [INFO]: [{"id":"c1f78125-84c2-441f-b2e1-48a9e5053391","type":"exampe type","text":"example text","userId":"cba4f43d-c76d-4fff-8dc3-565d8221a51a","createdAt":"2023-08-19T22:18:41.000Z","updatedAt":"2023-08-19T22:18:41.000Z"}]
