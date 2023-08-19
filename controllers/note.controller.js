@@ -21,7 +21,6 @@ const getNotes = catchAsync(async (req, res) => {
   const userId= req.user.id
   try{
     const results = await noteService.queryNotes(userId);
-    console.log(results,"=======")
     cacheData(req, results)
     res.send({data:results});
   } catch(error){
