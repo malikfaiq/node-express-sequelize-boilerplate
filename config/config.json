@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "testing",
+    "database": "note_taking_db",
+    "host": "db",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "testing",
+    "database": "note_taking_db",
+    "host": "db",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "testing",
+    "database": "note_taking_db",
+    "host": "db",
+    "dialect": "mysql"
+  }
+}
