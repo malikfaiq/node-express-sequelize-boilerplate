@@ -41,8 +41,8 @@ module.exports = router;
  *                 type: string
  *                 format: text
  *             example:
- *               text: example text
- *               type: exampe type
+ *               text: personal note
+ *               type: personal
  *     produces:
  *       - application/json
  *     responses:
