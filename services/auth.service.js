@@ -17,5 +17,5 @@ const loginUserWithUsernameAndPassword = async (username, password) => {
 };
 
 module.exports = {
-  loginUserWithUsernameAndPassword,
+  loginUserWithUsernameAndPassword
 };
