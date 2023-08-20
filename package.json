@@ -1,52 +1,52 @@
 {
-  "name": "note-taking-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "swagger-autogen": "node swagger.js",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "**/*.{js,jsx,ts,tsx}": [
-      "npx prettier --write",
-      "npx eslint --fix"
-    ]
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "bcryptjs": "^2.4.3",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.28.1",
-    "express": "^4.18.2",
-    "http-status": "^1.6.2",
-    "joi": "^17.9.2",
-    "mysql2": "^3.6.0",
-    "nodemon": "^3.0.1",
-    "passport": "^0.6.0",
-    "passport-jwt": "^4.0.1",
-    "passport-local": "^1.0.0",
-    "redis": "^4.6.7",
-    "sequelize": "^6.32.1",
-    "sequelize-cli": "^6.6.1",
-    "swagger-autogen": "^2.23.5",
-    "swagger-jsdoc": "^6.2.8",
-    "swagger-ui-express": "^5.0.0",
-    "uuid": "^9.0.0",
-    "winston": "^3.10.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.47.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-react": "^7.33.2",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.0",
-    "prettier": "^3.0.2"
-  }
+	"name": "note-taking-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js",
+		"swagger-autogen": "node swagger.js",
+		"prepare": "husky install"
+	},
+	"lint-staged": {
+		"**/*.{js,jsx,ts,tsx}": [
+			"npx prettier --write",
+			"npx eslint --fix"
+		]
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^5.1.1",
+		"bcryptjs": "^2.4.3",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-import": "^2.28.1",
+		"express": "^4.18.2",
+		"http-status": "^1.6.2",
+		"joi": "^17.9.2",
+		"mysql2": "^3.6.0",
+		"nodemon": "^3.0.1",
+		"passport": "^0.6.0",
+		"passport-jwt": "^4.0.1",
+		"passport-local": "^1.0.0",
+		"redis": "^4.6.7",
+		"sequelize": "^6.32.1",
+		"sequelize-cli": "^6.6.1",
+		"swagger-autogen": "^2.23.5",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^5.0.0",
+		"uuid": "^9.0.0",
+		"winston": "^3.10.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.47.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-react": "^7.33.2",
+		"husky": "^8.0.3",
+		"lint-staged": "^14.0.0",
+		"prettier": "^3.0.2"
+	}
 }

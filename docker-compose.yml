@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 services:
   app:
     build: .
@@ -20,7 +20,7 @@ services:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
-  
+
   redis:
     image: "redis:latest"
     ports:

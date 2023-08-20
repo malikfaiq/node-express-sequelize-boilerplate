@@ -6,7 +6,6 @@ const config = require('../../config/config');
 
 const router = express.Router();
 
-
 router.use('/auth', authRoute);
 router.use('/notes', noteRoute);
 
