@@ -4,15 +4,24 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
+		"test": "cross-env NODE_ENV=test jest --testTimeout=10000",
 		"start": "nodemon index.js",
 		"swagger-autogen": "node swagger.js",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"migrate": "npx sequelize-cli db:migrate",
+		"migrate:reset": "npx sequelize-cli db:migrate:undo:all && npm run migrate",
+		"pretest": "cross-env NODE_ENV=test npm run migrate:reset"
 	},
 	"lint-staged": {
 		"**/*.{js,jsx,ts,tsx}": [
 			"npx prettier --write",
 			"npx eslint --fix"
+		]
+	},
+	"jest": {
+		"testEnvironment": "node",
+		"coveragePathIgnorePatterns": [
+			"/node_modules/"
 		]
 	},
 	"keywords": [],
@@ -41,12 +50,15 @@
 		"winston": "^3.10.0"
 	},
 	"devDependencies": {
+		"cross-env": "^7.0.3",
 		"eslint": "^8.47.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.0",
 		"eslint-plugin-react": "^7.33.2",
 		"husky": "^8.0.3",
+		"jest": "^29.6.2",
 		"lint-staged": "^14.0.0",
-		"prettier": "^3.0.2"
+		"prettier": "^3.0.2",
+		"supertest": "^6.3.3"
 	}
 }

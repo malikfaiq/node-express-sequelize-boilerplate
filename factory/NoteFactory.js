@@ -1,20 +1,53 @@
 class Note {
-	constructor(text) {
-		this.text = text;
-		this.type = 'Normal';
+	constructor(data) {
+		this.type = 'note';
 	}
-
-	getNote() {
-		return { type: this.type, text: this.text };
+	createNote() {
+		return `"Note has been created with type ${this.type}"`;
 	}
 }
 
 class PersonalNote extends Note {
-	constructor(text) {
+	constructor(data) {
 		super();
-		this.text = text;
-		this.type = 'PersonalNote';
+		this.type = 'Personal';
+		this.user = data.user;
+		this.text = data.text;
+	}
+	createNote() {
+		return `"Note has been created with type ${this.type}"`;
 	}
 }
 
-modules.export = Note;
+class WorkNote extends Note {
+	constructor(data) {
+		super();
+		this.type = 'Work';
+		this.user = data.user;
+		this.text = data.text;
+	}
+	createNote() {
+		return `"Note has been created with type ${this.type}"`;
+	}
+}
+
+class NoteFactory {
+	getNote(data) {
+		switch (data.type) {
+		case 'personal':
+			return new PersonalNote(data);
+		case 'work':
+			return new WorkNote(data);
+			// Add more cases for other note types
+		default:
+			throw new Error(`Unsupported note type: ${data.type}`);
+		}
+	}
+}
+
+module.exports = {
+	Note,
+	NoteFactory,
+	WorkNote,
+	PersonalNote
+};

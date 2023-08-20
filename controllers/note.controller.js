@@ -3,13 +3,16 @@ const ApiError = require('../utils/apiError');
 const catchAsync = require('../utils/catchAsync');
 const { noteService } = require('../services');
 const logger = require('../logging/logger');
-const { checkCache, cacheData } = require('../caching/redis.client');
+const { cacheData } = require('../caching/redis.client');
+const { NoteFactory } = require('../factory/NoteFactory');
 
 const createNote = catchAsync(async (req, res) => {
 	let note = null;
-
+	const noteFactory = new NoteFactory();
 	try {
-		note = await noteService.createNote(req.body, req.user.id);
+		data = { type: req.body.type, text: req.body.text, user: req.user.id };
+		note = noteFactory.getNote(data);
+		note = await noteService.createNote(note);
 		res.status(httpStatus.CREATED).send(note);
 	} catch (error) {
 		logger.error(error);

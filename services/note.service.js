@@ -7,11 +7,11 @@ const ApiError = require('../utils/apiError');
  * @param {Object} noteBody
  * @returns {Promise<Note>}
  */
-const createNote = async (noteBody, userId) => {
+const createNote = async (noteBody) => {
 	return Note.create({
 		text: noteBody.text,
 		type: noteBody.type,
-		userId: userId
+		userId: noteBody.user
 	});
 };
 
