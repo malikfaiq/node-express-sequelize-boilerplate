@@ -8,7 +8,11 @@ const ApiError = require('../utils/apiError');
  * @returns {Promise<Note>}
  */
 const createNote = async (noteBody, userId) => {
-  return Note.create({text: noteBody.text, type: noteBody.type, userId: userId});
+	return Note.create({
+		text: noteBody.text,
+		type: noteBody.type,
+		userId: userId
+	});
 };
 
 /**
@@ -21,8 +25,8 @@ const createNote = async (noteBody, userId) => {
  * @returns {Promise<QueryResult>}
  */
 const queryNotes = async (userId) => {
-  const notes = await Note.findAll({ where: { userId }});
-  return notes;
+	const notes = await Note.findAll({ where: { userId } });
+	return notes;
 };
 
 /**
@@ -31,9 +35,8 @@ const queryNotes = async (userId) => {
  * @returns {Promise<Note>}
  */
 const getNoteById = async (noteId, userId) => {
-  return Note.findOne({ where: { id: noteId, userId } });
+	return Note.findOne({ where: { id: noteId, userId } });
 };
-
 
 /**
  * Update note by id
@@ -42,13 +45,13 @@ const getNoteById = async (noteId, userId) => {
  * @returns {Promise<Note>}
  */
 const updateNoteById = async (noteId, userId, updateBody) => {
-  const note = await getNoteById(noteId, userId);
-  if (!note) {
-    throw new ApiError(httpStatus.NOT_FOUND, 'Note not found');
-  }
-  Object.assign(note, updateBody);
-  await note.save();
-  return note;
+	const note = await getNoteById(noteId, userId);
+	if (!note) {
+		throw new ApiError(httpStatus.NOT_FOUND, 'Note not found');
+	}
+	Object.assign(note, updateBody);
+	await note.save();
+	return note;
 };
 
 /**
@@ -57,18 +60,18 @@ const updateNoteById = async (noteId, userId, updateBody) => {
  * @returns {Promise<Note>}
  */
 const deleteNoteById = async (noteId, userId) => {
-  const note = await getNoteById(noteId, userId);
-  if (!note) {
-    throw new ApiError(httpStatus.NOT_FOUND, 'Note not found');
-  }
-  await note.destroy();
-  return note;
+	const note = await getNoteById(noteId, userId);
+	if (!note) {
+		throw new ApiError(httpStatus.NOT_FOUND, 'Note not found');
+	}
+	await note.destroy();
+	return note;
 };
 
 module.exports = {
-  createNote,
-  queryNotes,
-  getNoteById,
-  updateNoteById,
-  deleteNoteById,
+	createNote,
+	queryNotes,
+	getNoteById,
+	updateNoteById,
+	deleteNoteById
 };
