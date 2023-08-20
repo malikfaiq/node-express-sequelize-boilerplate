@@ -9,6 +9,7 @@ services:
       - redis
     volumes:
       - .:/app
+      - /app/node_modules
   db:
     image: mysql:latest
     environment:
@@ -40,3 +41,4 @@ services:
 volumes:
   mysql_data:
   test_data:
+
