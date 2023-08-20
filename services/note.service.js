@@ -31,6 +31,12 @@ const queryNotes = async (userId) => {
  * @returns {Promise<Note>}
  */
 const getNoteById = async (noteId, userId) => {
+
+
+
+
+
+  
   return Note.findOne({ where: { id: noteId, userId } });
 };
 
