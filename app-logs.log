@@ -409,3 +409,6 @@ notNull Violation: Note.text cannot be null
 2023-08-20T16:34:09.582Z [ERROR]: noteType is not defined
 2023-08-20T16:41:36.728Z [ERROR]: Unsupported note type: undefined
 2023-08-20T16:42:54.063Z [ERROR]: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+2023-08-20T18:58:38.577Z [ERROR]: Username already taken
+2023-08-20T19:00:54.069Z [ERROR]: Username already taken
+2023-08-20T19:03:19.474Z [ERROR]: Incorrect email or password

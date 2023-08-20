@@ -17,6 +17,5 @@ COPY . .
 
 # Expose the app's port (3000)
 EXPOSE 3000
-
 # Start the app
-CMD ["npx", "nodemon", "index.js"]
+CMD ["./start.sh"]

@@ -17,7 +17,7 @@ const createNote = catchAsync(async (req, res) => {
 	} catch (error) {
 		logger.error(error);
 		res
-			.status(httpStatus.INTERNAL_SERVER_ERROR)
+			.status(httpStatus.BAD_REQUEST)
 			.send({ message: 'Please provide valid data' });
 	}
 });
@@ -30,7 +30,7 @@ const getNotes = catchAsync(async (req, res) => {
 		res.send({ data: results });
 	} catch (error) {
 		logger.error(error);
-		res.status(httpStatus.INTERNAL_SERVER_ERROR).send({ message: error });
+		res.status(httpStatus.BAD_REQUEST).send({ message: error });
 	}
 });
 
@@ -52,7 +52,7 @@ const updateNote = catchAsync(async (req, res) => {
 		res.send(note);
 	} catch (error) {
 		logger.error(error);
-		res.status(httpStatus.INTERNAL_SERVER_ERROR).send({ message: error });
+		res.status(httpStatus.BAD_REQUEST).send({ message: error });
 	}
 });
 
@@ -62,7 +62,7 @@ const deleteNote = catchAsync(async (req, res) => {
 		res.status(httpStatus.NO_CONTENT).send();
 	} catch (error) {
 		logger.error(error);
-		res.status(httpStatus.INTERNAL_SERVER_ERROR).send({ message: error });
+		res.status(httpStatus.BAD_REQUEST).send({ message: error });
 	}
 });
 

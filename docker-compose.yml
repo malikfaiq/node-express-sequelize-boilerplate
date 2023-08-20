@@ -20,7 +20,18 @@ services:
       - "3306:3306"
     volumes:
       - mysql_data:/var/lib/mysql
-
+  
+  testdb:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: testing
+      MYSQL_DATABASE: note_taking_db
+      MYSQL_USER: testing
+      MYSQL_PASSWORD: testing
+    ports:
+      - "3307:3306"
+    volumes:
+      - test_data:/var/lib/mysql
   redis:
     image: "redis:latest"
     ports:
@@ -28,3 +39,4 @@ services:
 
 volumes:
   mysql_data:
+  test_data:
