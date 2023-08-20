@@ -25,7 +25,6 @@ const createNote = async (noteBody, userId) => {
  * @returns {Promise<QueryResult>}
  */
 const queryNotes = async (userId) => {
-	console.log('---1---');
 	const notes = await Note.findAll({ where: { userId } });
 	return notes;
 };
