@@ -109,8 +109,11 @@ npx prettier:fix
 The environment variables can be found and modified in the `.env` file. They come with these default values:
 
 ```bash
-# Port number
-PORT=3000
+DB_USERNAME = "root"
+DB_PASSWORD = "testing"
+DB_NAME = "note_taking_db"
+DB_HOSTNAME = "db"
+NODE_ENV = "development"
 ```
 
 ## Project Structure
