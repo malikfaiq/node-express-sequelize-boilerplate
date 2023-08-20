@@ -130,8 +130,7 @@ module.exports = router;
  * /api/notes/{nodeId}:
  *   delete:
  *     summary: Delete a user by ID
- * 	   tags:
- *       - Notes
+ *     tags: [Notes]
  *     parameters:
  *       - name: nodeId
  *         in: path
